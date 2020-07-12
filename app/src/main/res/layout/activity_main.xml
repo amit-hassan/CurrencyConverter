@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Currency Converter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#CA24DB"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Amount Of BDT"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="convertNow"
+        android:text="Convert" />
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dollarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dollar $"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dollarDisplayTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rupeeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rupee ₹"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rupeeDisplayTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/singaporeDollarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Singapore Dollar ‎S$"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/singaporeDollarDisplayTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/qatarRiyalId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qatari Riyal ر.ق"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/qatariRiyalDisplayTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
